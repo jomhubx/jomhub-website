@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JomHUB | Professional Roblox Scripting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Favicon: Supports PNG, ICO, and GIF -->
+    <link rel="icon" type="image/gif" href="assets/icon.gif?v=3">
+    <link rel="icon" type="image/png" href="assets/icon.png?v=3">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo glitch-logo">JomHUB</div>
+        <div class="nav-links">
+            <a href="#scripts">Scripts</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="video-background">
+            <!-- Replace 'LXb3EKWsInQ' with your desired YouTube Video ID in both places below -->
+            <iframe src="https://www.youtube.com/embed/sAyzAe3axIY?controls=0&autoplay=1&mute=1&playsinline=1&loop=1&playlist=sAyzAe3axIY&disablekb=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>Dominate Your Favorite <span class="highlight">Roblox Games</span></h1>
+            <p class="sub-headline">Custom Lua scripts, automation, and sleek UIs. Stop grinding, start winning.</p>
+            <div class="cta-group">
+                <a href="#pricing" class="btn-primary">View Packages</a>
+                <a href="#scripts" class="btn-secondary">View Scripts</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Scripts Library Section -->
+    <section id="scripts" class="scripts">
+        <h2>Script Library</h2>
+        <div class="grid">
+            <div class="card script-card disabled-card">
+                <div class="script-badge">COMING SOON</div>
+                <img src="assets/bloxfruits.jpg" alt="Blox Fruits" class="card-img">
+                <div class="card-content">
+                    <h3>Blox Fruits</h3>
+                    <p>Auto Farm, ESP, Teleports, and Solo Leveling UI.</p>
+                </div>
+            </div>
+            <div class="card script-card" onclick="openModal('Final Stand', 'script_key=&quot;PUT YOUR KEY HERE&quot;;\nloadstring(game:HttpGet(&quot;https://api.luarmor.net/files/v4/loaders/9d9ce885d498d5a1f4dfd0f67ef6aae6.lua&quot;))()', 'https://ads.luarmor.net/get_key?for=FINAL_STAND_REMASTERED_SCRIPT-xkfZLFiwoZJx')">
+                <img src="assets/finalstand.jpg" alt="Final Stand" class="card-img">
+                <div class="card-content">
+                    <h3>Final Stand</h3>
+                    <p>Remastered Auto-Farm, Quest Auto-Complete, and Raids.</p>
+                </div>
+            </div>
+            <div class="card script-card" onclick="openModal('Z-Universe', 'script_key=&quot;PUT YOUR KEY HERE&quot;;\nloadstring(game:HttpGet(&quot;https://api.luarmor.net/files/v4/loaders/e0aa5c4616f026bd9867d19501ca6d50.lua&quot;))()', 'https://ads.luarmor.net/get_key?for=JOMHUB_SCRIPT-ibNwffaUMCrh')">
+                <img src="assets/zuniverse.jpg" alt="Z-Universe" class="card-img">
+                <div class="card-content">
+                    <h3>Z-Universe</h3>
+                    <p>Auto Skills, Planet Teleports, and Stat Manager.</p>
+                </div>
+            </div>
+            <div class="card script-card" onclick="openModal('Project Delta', 'script_key=&quot;PUT YOUR KEY HERE&quot;;\nloadstring(game:HttpGet(&quot;https://api.luarmor.net/files/v4/loaders/08d3a525cd43cdb4f11440b99cccd4a1.lua&quot;))()', 'https://ads.luarmor.net/get_key?for=JOMHUB_SCRIPT-ibNwffaUMCrh')">
+                <img src="assets/projectdelta.jpg" alt="Project Delta" class="card-img">
+                <div class="card-content">
+                    <h3>Project Delta</h3>
+                    <p>Aimbot, ESP, Loot Visuals, and Gun Mods.</p>
+                </div>
+            </div>
+            <div class="card script-card" onclick="openModal('Dogs of War', 'script_key=&quot;PUT YOUR KEY HERE&quot;;\nloadstring(game:HttpGet(&quot;https://api.luarmor.net/files/v4/loaders/f8c133e6b287e3d76369eddcd0bd895c.lua&quot;))()', 'https://ads.luarmor.net/get_key?for=DOG_OF_WAR_SCRIPT-GlaXsPRnufhT')">
+                <img src="assets/dogsofwar.jpg" alt="Dogs of War" class="card-img">
+                <div class="card-content">
+                    <h3>Dogs of War</h3>
+                    <p>Silent Aim, ESP, Infinite Stamina, and No Recoil.</p>
+                </div>
+            </div>
+            <div class="card script-card" onclick="openModal('Bee Swarm Simulator', 'loadstring(game:HttpGet(&quot;https://raw.githubusercontent.com/JomarHUB/Scripts/main/JomHUB%5BBEE%20SWARM%5D.lua&quot;))()', '')">
+                <img src="assets/beeswarm.jpg" alt="Bee Swarm Simulator" class="card-img">
+                <div class="card-content">
+                    <h3>Bee Swarm Simulator</h3>
+                    <p>Auto Farm, Mob Farm, Auto Dig, and ESP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features">
+        <h2>Why Choose JomHUB?</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Undetected Methods</h3>
+                <p>Advanced <code>VirtualInputManager</code> simulation to keep your account safe from detection.</p>
+            </div>
+            <div class="card">
+                <h3>Mobile Support</h3>
+                <p>Fully optimized UIs with toggle buttons designed for mobile and tablet users.</p>
+            </div>
+            <div class="card">
+                <h3>High-Performance</h3>
+                <p>Optimized <code>RenderStepped</code> loops ensure your game runs smooth while the script does the work.</p>
+            </div>
+            <div class="card">
+                <h3>Sleek Interfaces</h3>
+                <p>Premium "Solo Leveling" inspired UI themes that look as good as they perform.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Service Packages</h2>
+        <div class="grid">
+            <div class="price-card basic">
+                <div class="price-header">
+                    <h3>Basic</h3>
+                    <div class="price">Free</div>
+                </div>
+                <ul>
+                    <li>2 Ads</li>
+                    <li>3 Hours Limit Key</li>
+                    <li>Safe</li>
+                </ul>
+                <a href="https://discord.gg/ZMpbAyQ4CH" class="btn-outline">Order Now</a>
+            </div>
+            <div class="price-card premium">
+                <div class="badge">BEST VALUE</div>
+                <div class="price-header">
+                    <h3>Premium</h3>
+                    <div class="price">$10</div>
+                </div>
+                <ul>
+                    <li>Access 4 Scripts</li>
+                    <li>Priority Support</li>
+                    <li>No Ads</li>
+                </ul>
+                <a href="https://discord.gg/ZMpbAyQ4CH" class="btn-primary">Order Now</a>
+            </div>
+            <div class="price-card exclusive">
+                <div class="price-header">
+                    <h3>Exclusive</h3>
+                    <div class="price">$25</div>
+                </div>
+                <ul>
+                    <li>Access All Scripts</li>
+                    <li>Lifetime Access</li>
+                    <li>Early Access to New Scripts</li>
+                </ul>
+                <a href="https://discord.gg/ZMpbAyQ4CH" class="btn-outline">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script Modal (Hidden by default) -->
+    <div id="scriptModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h3 id="modalTitle">Script Title</h3>
+            <p>Copy the script below and paste it into your executor.</p>
+            <div class="code-box">
+                <code id="modalCode">loadstring...</code>
+            </div>
+            <div class="modal-actions">
+                <button id="copyBtn" class="btn-primary" onclick="copyScript()">Copy Loadstring</button>
+                <a id="getKeyBtn" href="#" target="_blank" class="btn-primary" style="display: none;">Get Key</a>
+            </div>
+            <div id="copyFeedback" class="copy-feedback">Copied to clipboard!</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Ready to Level Up?</h2>
+            <p>Join the Discord to order your custom script today.</p>
+            <div class="footer-buttons">
+                <a href="https://discord.gg/ZMpbAyQ4CH" class="btn-discord">Join Discord Server</a>
+                <a href="https://www.youtube.com/@JomarHUB" target="_blank" class="btn-youtube">YouTube Channel</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 JomHUB. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        const modal = document.getElementById('scriptModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalCode = document.getElementById('modalCode');
+        const feedback = document.getElementById('copyFeedback');
+        const getKeyBtn = document.getElementById('getKeyBtn');
+
+        function openModal(title, script, keyLink) {
+            modalTitle.innerText = title;
+            modalCode.innerText = script;
+            modal.style.display = "flex";
+            feedback.style.opacity = "0";
+            
+            if (keyLink) {
+                getKeyBtn.href = keyLink;
+                getKeyBtn.style.display = "inline-flex";
+            } else {
+                getKeyBtn.style.display = "none";
+            }
+        }
+
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        function copyScript() {
+            navigator.clipboard.writeText(modalCode.innerText).then(() => {
+                feedback.style.opacity = "1";
+                setTimeout(() => { feedback.style.opacity = "0"; }, 2000);
+            });
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
